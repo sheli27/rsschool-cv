@@ -1,0 +1,344 @@
+body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+    /*justify-content: space-between;*/
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+/*** container
+-----------***/
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/*** header
+-----------***/
+.header{
+    margin: 0 auto;
+    width: 1440px;
+    height: 100px;
+    background-color: bisque;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav_item{
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+.nav_link {
+    line-height: 50px;
+    text-decoration: none;
+    color: brown;
+    transition: color 0.1s linear;
+}
+
+.nav_link:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 3px;
+	background: chocolate;
+	opacity: 0;
+
+	top: 100%;
+	left: 0;
+	z-index: 1;
+
+	transition: opacity 0.1s linear;
+}
+
+.nav_link:hover{
+	color: chocolate;
+}
+
+.nav_link:hover:after{
+	opacity: 1;
+}
+
+@media (max-width: 480px){
+    .header{
+        width: 100%;
+        height: 100px;
+    }
+    .nav_item{
+        font-size: 10px;
+        padding: 5px 5px;
+    }
+    .nav_link:after{
+        content: "";
+        display: block;
+        width: 0%;
+        height: 0px;
+        background: chocolate;
+        opacity: 0;
+    
+        top: 0%;
+        left: 0;
+        z-index: 1;
+    
+        transition: opacity 0.1s linear;
+    }
+}
+
+/*** main
+-----------***/
+.main{
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.photo_name_block{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 10px solid brown;
+}
+
+.photo_block{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.img_photo{
+    width: 170px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 70px;
+}
+
+.name_block{
+    width: 50%;
+    
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 3px;
+}
+
+.name_text{
+    border-bottom: 2px solid brown;
+    padding: 20px 0;
+}
+
+@media (max-width: 480px){
+    .img_photo{
+        width: 150px;
+        height: 180px;
+        border-radius: 100px;
+        margin-top: 50px;
+    }
+    .name_block{
+        font-size: 10px;
+        padding-top: 50px;
+        letter-spacing: 2px;
+    }
+    .name_text{
+        padding: 10px 0;
+    }
+}
+
+/*** contacts_summary
+-----------***/
+.contacts_summary{
+    width: 100%;
+    height: 220px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+}
+
+.contacts{
+    width: 45%;
+    text-align: left;
+    border-bottom: 2px solid brown;
+}
+
+.contact_link{
+    text-decoration: none;
+    color: brown;
+    transition: color 0.1s linear;
+}
+
+.contact_link:hover{
+	color: chocolate;
+}
+
+.summary{
+    width: 45%;
+    text-align: left;
+    border-bottom: 2px solid brown;
+}
+
+.title_block{
+    text-transform: uppercase;
+}
+
+@media (max-width: 480px){
+    .contacts_summary{
+        height: 390px;
+        padding-top: 15px;
+        line-height: 1.3;
+        font-size: 16px;
+    }
+}
+
+/*** skills_code
+-----------***/
+.skills_code{
+    width: 100%;
+    height: 220px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+}
+
+.skills{
+    width: 45%;
+    text-align: left;
+    border-bottom: 2px solid brown;
+}
+
+.code{
+    width: 45%;
+    text-align: left;
+    border-bottom: 2px solid brown;
+}
+
+@media (max-width: 480px){
+    .skills_code{
+        height: 300px;
+        padding-top: 15px;
+        line-height: 1.3;
+        font-size: 16px;
+    }
+}
+
+/*** education_experience
+-----------***/
+.education_experience{
+    width: 100%;
+    height: 200px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+}
+
+.education{
+    width: 45%;
+    text-align: left;
+    border-bottom: 2px solid brown;
+}
+
+.experience{
+    width: 45%;
+    text-align: left;
+    border-bottom: 2px solid brown;
+}
+
+@media (max-width: 480px){
+    .education_experience{
+        height: 320px;
+        padding-top: 15px;
+        line-height: 1.3;
+        font-size: 16px;
+    }
+}
+
+/*** languages_projects
+-----------***/
+.languages_projects{
+    width: 100%;
+    height: 180px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+}
+
+.languages{
+    width: 45%;
+    text-align: left;
+}
+
+.projects{
+    width: 45%;
+    text-align: left;
+}
+
+@media (max-width: 480px){
+    .languages_projects{
+        height: 160px;
+        padding-top: 15px;
+        line-height: 1.3;
+        font-size: 16px;
+    }
+}
+
+/*** footer
+-----------***/
+.footer{
+    margin: 0px auto;
+    width: 1440px;;
+    height: 100px;
+    background-color: bisque;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.info_project{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_info{
+    font-size: 20px;
+    text-decoration: none;
+    color: brown;
+}
+
+.project_year{
+    margin-left: -90px;
+}
+
+.git_link{
+    margin-left: 30px;
+}
+
+.rs_icon{
+    width: 120px;
+    height: 60px;
+    padding-top: 15px;
+}
+
+@media (max-width: 480px){
+    .footer{
+        width: 100%;
+        height: 100px;
+    }
+    .project_year{
+        margin-left: 0px;
+    }
+}
+
