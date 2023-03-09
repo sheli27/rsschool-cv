@@ -6,7 +6,7 @@
 + **Phone:** +375 33 6*6*85*
 + **E-mail:** [dage27rg@gmail.com]
 + **LinkedIn:** [константин-костюченко-94145521b]
-+ **GitHub:** [sheli27]
++ **GitHub:** [(sheli2)]
 
 # Summary
 ***********
@@ -39,10 +39,10 @@ function addItem() {
 
 # Education
 ***********
-### + Sukhoi State Technical University of Gomel
-      - Faculty of Mechanical Engineering
-### + IT Class Academy
-      - Software development
+* **Sukhoi State Technical University of Gomel**
+    + Faculty of Mechanical Engineering
+* **IT Class Academy**
+    * Software development
       
 # Languages
 ***********
