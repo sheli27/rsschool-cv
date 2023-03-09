@@ -1,22 +1,18 @@
 # Kanstantsin Kastsiuchenka
-***********
 # My Contact Info
-***********
 + **Address:** st.Gomel, Belarus
 + **Phone:** +375 33 6*6*85*
-+ **E-mail:** [dage27rg@gmail.com]
-+ **LinkedIn:** [константин-костюченко-94145521b]
-+ **GitHub:** [(sheli2)]
++ **E-mail:** dage27rg@gmail.com
++ **LinkedIn:** константин-костюченко-94145521b
++ **GitHub:** sheli2
 
 # Summary
-***********
 He worked in the field of woodworking. I decided to radically change my life.
 Graduated from a technical university.
 Completed the course 'software development' lasting 1 year.
 Always ready to gain new knowledge and experience.
 
 # Skills
-***********
 + HTML
 + CSS (Framework Bootstrap)
 + C (basic knowledge)
@@ -26,7 +22,6 @@ Always ready to gain new knowledge and experience.
 + Editors: Sublime, VSCode, IntelliJ IDEA, Visual Studio
 
 # Code examples
-***********
 ```
 function addItem() {
 	getMaxKey();
@@ -38,14 +33,12 @@ function addItem() {
 ```
 
 # Education
-***********
 * **Sukhoi State Technical University of Gomel**
     + Faculty of Mechanical Engineering
 * **IT Class Academy**
     * Software development
       
 # Languages
-***********
 + Belarusian
 + Russian
 + English (A2)
