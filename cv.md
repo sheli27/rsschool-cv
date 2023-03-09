@@ -3,8 +3,8 @@
 + **Address:** st.Gomel, Belarus
 + **Phone:** +375 33 6*6*85*
 + **E-mail:** dage27rg@gmail.com
-+ **LinkedIn:** константин-костюченко-94145521b
-+ **GitHub:** sheli2
++ **LinkedIn:** [константин-костюченко-94145521b](https://www.linkedin.com/in/%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD-%D0%BA%D0%BE%D1%81%D1%82%D1%8E%D1%87%D0%B5%D0%BD%D0%BA%D0%BE-94145521b/)
++ **GitHub:** [sheli27](https://github.com/sheli27/)
 
 # Summary
 He worked in the field of woodworking. I decided to radically change my life.
