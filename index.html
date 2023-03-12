@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Resume</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#contacts" class="nav_link">Contacts</a></li>
+                    <li class="nav_item"><a href="#summary" class="nav_link">Summary</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                    <li class="nav_item"><a href="#education" class="nav_link">Education</a></li>
+                    <li class="nav_item"><a href="#experience" class="nav_link">Experience</a></li>
+                    <li class="nav_item"><a href="#languages" class="nav_link">Languages</a></li>
+                    <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+                  </ul>
+            </nav>
+        </div> <!--container-->
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="photo_name_block">
+                <div class="photo_block">
+                    <img class="img_photo" src="assets/img/avatar.png" alt="Photo Author">
+                </div>
+                <div class="name_block">
+                    <h1 class="name_text">Kanstantsin Kastsiuchenka</h1>
+                    <h3>trainee front-end developer</h3>
+                </div>
+            </div> <!--photo_name_block-->
+
+            <div class="contacts_summary">
+                <div class="contacts" id="contacts">
+                    <h3 class="title_block">Contacts</h3>
+                    <ul>
+                        <li>Gomel, Belarus</li>
+                        <li>EMail: <a class="contact_link" href="https://mail.google.com/">dage27rg@gmail.com</a></li>
+                        <li>Discord: <a class="contact_link" href="https://discord.com/">konstantin#8495</a></li>
+                        <li>GitHub: <a class="contact_link" href="https://github.com/sheli27/">sheli27</a></li>
+                        <li>Phone: +375 33 616-48-56</li>
+                    </ul>
+                </div>
+
+                <div class="summary" id="summary">
+                    <h3 class="title_block">Summary</h3>
+                    <p>
+                        Worked in the field of woodworking. Decided to radically change my life.
+                        Graduated from a technical university.
+                        Completed the course 'software development' lasting 1 year.
+                        Always ready to gain new knowledge and experience.
+                        I like to learn something new and do what truly brings pleasure.
+                    </p>
+                </div>
+            </div> <!--contacts_summary-->
+
+            <div class="skills_code">
+                <div class="skills" id="skills">
+                    <h3 class="title_block">Skills</h3>
+                    <ul>
+                        <li>HTM (basic)L</li>
+                        <li>CSS (basic)</li>
+                        <li>Java (basic), C (basic), C++ (basic)</li>
+                        <li>Photoshop (basic)</li>
+                        <li>Editors: IntelliJ IDEA, Sublime text, VSCode</li>
+                    </ul>
+                </div>
+                <div class="code" id="code">
+                    <h3 class="title_block"></h3>
+                    
+                </div>
+            </div> <!--skills_code-->
+
+            <div class="education_experience">
+                <div class="education" id="education">
+                    <h3 class="title_block">Education</h3>
+                    <ul>
+                        <li>Gomel State Technical University named after P.O.Sukhoi <br>
+                            Faculty of Mechanical Engineering Technology
+                        </li>
+                        <li>IT Class academy <br>
+                            software development
+                        </li>
+                    </ul>
+                </div>
+                <div class="experience" id="experience">
+                    <h3 class="title_block">Experience</h3>
+                    <p>I work in the industrial sector (since 2012)</p>
+                </div>
+            </div> <!--education_experience-->
+
+            <div class="languages_projects">
+                <div class="languages" id="languages">
+                    <h3 class="title_block">Languages</h3>
+                    <ul>
+                        <li>Russian</li>
+                        <li>English (A1 elementary)</li>
+                    </ul>
+                </div>
+                <div class="projects" id="projects">
+                    <h3 class="title_block">Projects</h3>
+                    <a class="nav_link" href="https://github.com/sheli27/projects">Projects of courses</a>
+                </div>
+            </div> <!--languages_projects-->
+
+        </div> <!--container-->
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="info_project">
+                <div class="text_info">
+                    <ul class="nav_list">
+                        <li class="project_year">2022</li>
+                        <li class="git_link"><a class="nav_link" href="https://github.com/sheli27/">sheli27</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <img class="rs_icon" src="assets/img/icons.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        $('.nav-toggle').on('click', function(){
+          $('#menu').toggleClass('active');
+        });
+        </script>
+
+</body>
+</html>
